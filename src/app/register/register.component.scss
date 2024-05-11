@@ -1,0 +1,411 @@
+.btn {
+    background-color: white;
+}
+
+#submit {
+    background-color: rgb(100, 192, 235);
+}
+
+.mr-3 {
+    background-color: white;
+    color: black;
+}
+
+.look {
+    font-weight: 600;
+    margin-top: 119px;
+    margin-left: 161px;
+}
+
+.form-inline {
+    margin-left: 161px;
+    padding-top: 5px;
+}
+
+.nav-item {
+    color: white;
+}
+
+.img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -60%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.form-inline .form-control {
+    width: 474px;
+}
+
+.form-check-label {
+    color: white;
+    font-style: italic;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.dropdown-toggle {
+    font-style: italic;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 767px) {
+
+    .look,
+    .form-inline {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .look,
+    .form-inline {
+        margin-left: 5px;
+    }
+}
+
+
+.lblCls {
+    text-align: center;
+}
+
+.mainlbl {
+    margin-top: 5px;
+    font-family: system-ui;
+}
+
+.btnCls3 {
+    margin-top: 2%;
+    border: 2px solid;
+    background-color: white;
+    border-color: #00aeff;
+    height: 40px;
+    font-size: x-small;
+    font-weight: bold;
+    border-radius: 3px;
+    color: #00aeff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    font-family: system-ui;
+}
+
+.lblHead {
+    font-size: 27px;
+}
+
+.pCls {
+    font-size: 10px;
+}
+
+.lineCls {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 6%;
+    height: 3px;
+    background-color: #00aeff;
+    margin: 0 auto;
+}
+
+.divCls {
+    background-color: rgb(222, 219, 219);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.divCls1 {
+    background-color: black;
+    color: white;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.inpCls {
+    border: 2px solid #00aeff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: x-small;
+    color: black;
+    background-color: black;
+    width: 155px;
+    margin-right: 7px;
+    padding-right: 30px;
+}
+
+.inpCls::placeholder {
+    color: white;
+    font-style: italic;
+}
+
+.rowCls {
+    position: relative;
+    display: inline-block;
+}
+
+.imgCls {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    height: 13px;
+    width: 13px;
+    cursor: pointer;
+}
+
+.divCls2 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(222, 219, 219);
+}
+
+.imgCls1 {
+    height: 15px;
+    width: 15px;
+}
+
+.setRow {
+    margin-left: 20%;
+}
+
+.inpCls1 {
+    border: none;
+}
+
+.copylbl {
+    font-family: system-ui;
+    font-size: small;
+    display: block;
+    margin-top: 9px;
+    color: rgb(122, 119, 119);
+}
+
+.divCls,
+.divCls1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 767px) {
+    .look {
+        margin-left: 10px;
+    }
+
+    .form-inline {
+        margin-left: 10px;
+    }
+
+    .setRow {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .look {
+        margin-left: 5px;
+    }
+
+    .form-inline {
+        margin-left: 5px;
+    }
+
+    .setRow {
+        margin-left: 0;
+    }
+}
+
+
+
+
+.registration-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    // border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    /* Use flexbox */
+}
+
+.upload-section {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    margin-bottom: 15px;
+}
+
+.input-field input,
+.input-field select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+
+.interests {
+    // background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.interests-checkboxes {
+    display: flex;
+    align-items: center;
+}
+
+.interest {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    background-color: rgb(62, 61, 61);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.interest input[type="checkbox"] {
+    display: none;
+}
+
+.interest-label {
+    position: relative;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.interest-label:after {
+    content: "\2715";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(62, 61, 61);
+    border-radius: 3px;
+    background-color: rgb(62, 61, 61);
+    text-align: center;
+    line-height: 18px;
+}
+
+.form-section {
+    flex: 1;
+}
+
+.registration-form {
+    max-width: 600px;
+    padding: 20px;
+    // border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-fields {
+    flex-direction: auto;
+}
+
+.name-fields {
+    display: flex;
+}
+
+.name-fields .input-field {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-field {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(62, 61, 61);
+    border: rgb(62, 61, 61);
+    border-radius: 3px;
+    flex: auto;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.buttons button:first-child {
+    margin-left: 0;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+    border: 2px solid #0056b3;
+    color: white;
+}
+
+.btnCls {
+    margin-right: 10px;
+    width: 100px;
+    color: rgb(62, 61, 61);
+    border-color: rgb(62, 61, 61);
+    font-size: medium;
+    height: 39px;
+    border-radius: 3px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.btnCls1 {
+    //    margin-right: 10px;
+    width: 100px;
+    color: rgb(62, 61, 61);
+    border-color: rgb(62, 61, 61);
+    font-size: medium;
+    height: 39px;
+    border-radius: 3px;
+    background-color: white;
+    font-weight: bold;
+}

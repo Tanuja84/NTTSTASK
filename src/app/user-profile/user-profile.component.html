@@ -1,0 +1,45 @@
+<div class="navbar">
+    <button class="demo-button">DEMO APP</button>
+    <ul>
+        <li><a routerLink="/home">Home</a></li>
+        <li><a routerLink="/about">About Us</a></li>
+        <li><a routerLink="/jobs">Jobs</a></li>
+        <li><a routerLink="/clients">Clients</a></li>
+        <li><a routerLink="/employers">Employers</a></li>
+        <li><a routerLink="/contact">Contact Us</a></li>
+    </ul>
+</div>
+
+<div class="container">
+    <div class="profile">
+        <div class="profile-image">
+            <h3 style="color: rgb(17, 200, 200); display: inline-block; padding: 5px;">Profile</h3><br>
+            <img [src]="pic" alt="Profile Picture" height="150" width="130">
+            <div class="edit-buttons">
+                <button style="background-color: orange; color: black;" (click)="toggleEdit()">Edit Profile</button>
+                <input type="file" accept="image/*" (change)="onPhotoSelected($event)" style="display: none;" #photoInput>
+                
+                <button style="background-color: orange; color: black;" (click)="photoInput.click()">Edit Photo</button>
+                
+            </div>
+        </div>
+        <div class="profile-info">
+            <p [attr.contenteditable]="isEditable ? 'true' : 'false'" style="margin-top: 70px;">I'm {{name}} and I'm above {{age}} years old.
+                You can send your emails to
+                <a href="mailto:kassidy@publicis.com"
+                    style="color: rgb(101, 205, 246);">{{email}}</a>.
+                I live in the state of {{state}}.
+                I like to play {{tag}} and reading books.
+                And please send me newsletters.
+                Please reach out to me on my phone number.
+            </p>
+
+            <div class="edit-buttons">
+                <button style="background-color: rgb(39, 221, 39);">I Agree</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
